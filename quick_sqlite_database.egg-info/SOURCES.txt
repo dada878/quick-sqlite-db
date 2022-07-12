@@ -1,0 +1,8 @@
+README.md
+license.txt
+setup.py
+quick_sqlite/__init__.py
+quick_sqlite_database.egg-info/PKG-INFO
+quick_sqlite_database.egg-info/SOURCES.txt
+quick_sqlite_database.egg-info/dependency_links.txt
+quick_sqlite_database.egg-info/top_level.txt

@@ -1,6 +1,10 @@
 # Quick-sqlite
 ### Overview
 A lightweight key-value database basic sqlite.
+### Install
+```
+pip install -i https://test.pypi.org/simple/ quick-sqlite-database
+```
 ### Example
 ```py
 from quick_sqlite import Database

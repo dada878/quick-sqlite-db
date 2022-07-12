@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: quick-sqlite-database
+Version: 0.0.1
+Summary: A lightweight key-value database basic sqlite
+Author: Dada878
+License-File: license.txt
