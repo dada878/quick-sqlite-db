@@ -3,7 +3,7 @@
 A lightweight key-value database basic sqlite.
 ### Install
 ```
-pip install -i https://test.pypi.org/simple/ quick-sqlite-database
+pip install quick-sqlite-database
 ```
 ### Example
 ```py
