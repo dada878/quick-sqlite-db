@@ -29,7 +29,9 @@ class Database():
             c.execute(f'SELECT `value` FROM `{self.name}` WHERE `key` == "{key}";'))
 
         if not result:
-            return None
+            if self.auto_init != False:
+                self.set(key, self.auto_init)
+            else: return self.auto_init
         else:
             try:
                 return json.loads(result[0][0])
