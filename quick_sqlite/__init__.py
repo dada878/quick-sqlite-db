@@ -1,7 +1,6 @@
 import json
 import sqlite3
 from typing import List
-from xmlrpc.client import Boolean
 
 class DatabaseItem():
     def __init__(self, key, value) -> None:
@@ -109,7 +108,7 @@ class Database():
         self.set(key, value)
         return value
 
-    def exists(self, key) -> Boolean:
+    def exists(self, key) -> bool:
         """
         Check if key exists
         """
@@ -124,6 +123,7 @@ class Database():
         self.conn.commit()
 
 if __name__ == "__main__":
-    db = Database("test.db", auto_init=0)
-    a = db.get_all()
-    print(db.set("bb", 1))
+    pass
+    # db = Database("test.db", auto_init=0)
+    # a = db.get_all()
+    # print(db.set("bb", 1))
