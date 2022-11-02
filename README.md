@@ -17,25 +17,34 @@ db.get("name") #Dada878
 ```
 ### Documentation
 ```Database(path, tableName?)```\
-connect to database
+Connect to database
 
 ```db.set(key,value)```\
-set value by string key
+Set value by key and retune the value
 
 ```db.get(key)```\
-return value by string key
+Return value by string key
 
 ```db.append(key,more)```\
-add more to key's value
+Add more to key's value
 
 ```db.get_all()```\
-return all key and value as array
+Return all key and value as array
 
 ```db.get_all_key()```\
-return all key as array
+Return all key as array
 
 ```db.delete(key)```\
-delete item by key
+Delete item by key
 
 ```db.exists(key)```\
-check if key exists, return boolean
+Check if key exists, return boolean
+
+```db.change_name(name)```\
+Change the table name
+
+```db.remove(key,more)```\
+Remove some value from the key and retune the value
+
+```db.append(key,more)```\
+Add some value from the key and retune the value
